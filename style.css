@@ -1,0 +1,59 @@
+nav {
+   display: flex;
+   background-color: antiquewhite;
+   color: white;
+   justify-content: space-around;
+   font-size: large;
+   
+   
+
+}
+
+.image-container {
+    display: flex; 
+    align-items: center; 
+    font-size: x-large;
+    background-color: antiquewhite;
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-right: 20px; /* Add some spacing between image and paragraph */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 5px; /
+    max-width: 50%;
+}
+.image-grid img {
+    width: 500px;
+    height: auto;
+
+}
+.content-container {
+    display: flex;
+    width: 100%;
+    text-align: right;
+}
+.caption {
+    font-size: medium;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+
+}
+
+.paragraph-container {
+    /* ... Your existing styles ... */
+    text-align: right;
+    padding-right: 20px; /* Add padding to the right side */
+    font-size: x-large;
+    background-color: aqua;
+}
+
+
